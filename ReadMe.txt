@@ -47,11 +47,5 @@ Most of the Operation can be done in Transform and Reduce format.
 Blocking should be avoid as much as possible. Since only limited no of blocks can be excecute
 at a given instance of time.
 
-Issues :
-
-Machine Learning operation needs massive data to train and Test. So, memory on device should be traded carefully.
-Also there are memory focused operation that require large input and output.
-There are many operation that can be done without atomics by simply using reduction. But it cost memory. In a ideal
-System where memory available is high massive parallelism can be achivie by simply shifting all op to store and reduce method.
 
 
